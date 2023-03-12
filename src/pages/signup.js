@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
+import Link from "next/link";
 
 export default function Signup() {
   const [username, setUsername] = useState('')
@@ -45,6 +46,9 @@ export default function Signup() {
               <span class="inline-block mr-2">SignUp</span>
 
               </button>
+              <Link href="/login" className="transition-all duration-250 hover:text-red-500">
+                <p>login</p>
+              </Link>
             </div>
           </div>
         </div>
