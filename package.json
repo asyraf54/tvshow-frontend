@@ -1,0 +1,20 @@
+{
+  "name": "tvshow-info",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.2.4",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.0.1",
+    "tailwindcss": "^3.2.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-player": "^2.11.0"
+  }
+}
